@@ -21,3 +21,8 @@ This script is for Debian-based Linux distributions running a Gnome desktop envi
 - Paper
 - Papirus
 - Pop
+
+## fedora-setup
+This script is for the Fedora operating system running a Gnome desktop environment, and uses the dnf package manager to install useful software after a fresh install. It enables both the free and non-free RPM Fusion repositories, installs Gnome Tweaks and the Gnome Extensions app, installs Timeshift for creating backups, Preload for faster app launch times, and DNFdragora for easier software management. The script also has an option to install the Nvidia proprietary drivers - just uncomment lines 16 and 17 if you are using a Nvidia GPU.
+
+After running the script, you will need to go to extensions.gnome.org and switch the button to the on position to enable Gnome Shell Extensions. After that you should be set up and ready to use Gnome Tweaks and Gnome Shell Extensions to customize your desktop environment.
